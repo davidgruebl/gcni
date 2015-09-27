@@ -22,12 +22,12 @@
 ## Install
 
 ```
-npm install gcni --save
+npm i -g gcni
 ```
 ## Example
 
 ```js
-EXAMPLEHERE
+$ gcni git@github.com:w33ble/emo.git emo
 ```
 
 ## LICENSE

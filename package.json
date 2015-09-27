@@ -1,7 +1,7 @@
 {
   "name": "gcni",
   "description": "✌ clones and installs ✌",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "David Thomas Grübl me@dtg.sexy (https://dtg.sexy)",
   "bin": {
     "gcni": "bin/index.js"
