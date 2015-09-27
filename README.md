@@ -1,5 +1,4 @@
-# gcni [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Support us][gittip-image]][gittip-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url]
-
+# gcni
 
 ## Information
 
@@ -55,22 +54,3 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-[gittip-url]: https://www.gittip.com/davidgruebl/
-[gittip-image]: http://img.shields.io/gittip/davidgruebl.svg
-
-[downloads-image]: http://img.shields.io/npm/dm/gcni.svg
-[npm-url]: https://npmjs.org/package/gcni
-[npm-image]: http://img.shields.io/npm/v/gcni.svg
-
-[travis-url]: https://travis-ci.org/davidgruebl/gcni
-[travis-image]: https://travis-ci.org/davidgruebl/gcni.png?branch=master
-
-[coveralls-url]: https://coveralls.io/r/davidgruebl/gcni
-[coveralls-image]: https://coveralls.io/repos/davidgruebl/gcni/badge.png
-
-[depstat-url]: https://david-dm.org/davidgruebl/gcni
-[depstat-image]: https://david-dm.org/davidgruebl/gcni.png
-
-[david-url]: https://david-dm.org/davidgruebl/gcni
-[david-image]: https://david-dm.org/davidgruebl/gcni.png?theme=shields.io

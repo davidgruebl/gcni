@@ -1,32 +1,24 @@
 {
   "name": "gcni",
-  "description": "clones and installs",
-  "version": "0.0.1",
-  "homepage": "http://github.com/davidgruebl/gcni",
-  "repository": "git://github.com/davidgruebl/gcni.git",
+  "description": "✌ clones and installs ✌",
+  "version": "1.0.0",
   "author": "David Thomas Grübl me@dtg.sexy (https://dtg.sexy)",
-  "dependencies": {},
-  "devDependencies": {
-    "istanbul-coveralls": "^1.0.1",
-    "jshint": "^2.5.11",
-    "jshint-stylish": "^2.0.0",
-    "mochify": "dylanfm/mochify.js",
-    "mochify-istanbul": "^2.1.1",
-    "should": "^7.0.0"
-  },
-  "main": "./index.js",
-  "scripts": {
-    "lint": "jshint index.js lib --exclude node_modules --config .jshintrc --reporter node_modules/jshint-stylish/index.js",
-    "test": "npm run-script lint && mochify --recursive --reporter spec",
-    "coveralls": "mochify --recursive --plugin [ mochify-istanbul --exclude '**/+(test|node_modules)/**/*' --report lcov --dir ./coverage ] && istanbul-coveralls"
+  "bin": {
+    "gcni": "bin/index.js"
   },
   "engines": {
     "node": ">= 0.10"
   },
+  "homepage": "http://github.com/davidgruebl/gcni",
   "licenses": [
     {
       "type": "MIT",
       "url": "http://github.com/davidgruebl/gcni/raw/master/LICENSE"
     }
-  ]
+  ],
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidgruebl/gcni.git"
+  }
 }
