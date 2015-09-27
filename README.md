@@ -19,6 +19,8 @@
 
 ## Usage
 
+![give it to me](https://raw.github.com/davidgruebl/gcni/master/img/gimme.gif)
+
 ## Install
 
 ```
@@ -27,10 +29,10 @@ npm i -g gcni
 ## Examples
 
 ```js
-$ gcni git@github.com:w33ble/emo.git
+$ gimme git@github.com:w33ble/emo.git
 // clones the repo into the current folder and installs all dependencies
 
-$ gcni git@github.com:w33ble/emo.git somefolder
+$ gimme git@github.com:w33ble/emo.git somefolder
 // clones the repo into <somefolder> folder and installs all dependencies
 ```
 
