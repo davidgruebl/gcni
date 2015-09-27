@@ -28,7 +28,7 @@ npm i -g gcni
 ```
 ## Examples
 
-```js
+```
 $ gimme dereke/peace
 $ gimme https://github.com/dereke/peace
 $ gimme git@github.com:dereke/peace.git
