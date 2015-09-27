@@ -7,6 +7,9 @@
     "gcni": "bin/index.js",
     "gimme": "bin/index.js"
   },
+  "devDependencies": {
+    "standard": "*"
+  },
   "engines": {
     "node": ">= 0.10"
   },
@@ -21,5 +24,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/davidgruebl/gcni.git"
+  },
+  "scripts": {
+    "test": "standard"
   }
 }
