@@ -2,10 +2,11 @@
 
 var exec = require('child_process').exec
 var input = process.argv.slice(2)
+var folder = input[1] || '.'
 
 var cmd = [
   'git clone ' + input.join(' '),
-  'cd ' + input[1],
+  'cd ' + folder,
   'npm install'
 ]
 
