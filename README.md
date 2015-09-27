@@ -29,11 +29,15 @@ npm i -g gcni
 ## Examples
 
 ```js
-$ gimme git@github.com:w33ble/emo.git
-// clones the repo into the current folder and installs all dependencies
+$ gimme dereke/peace
+$ gimme https://github.com/dereke/peace
+$ gimme git@github.com:dereke/peace.git
+// clones the repo to /peace and installs all dependencies
 
-$ gimme git@github.com:w33ble/emo.git somefolder
-// clones the repo into <somefolder> folder and installs all dependencies
+$ gimme dereke/peace somefolder
+$ gimme https://github.com/dereke/peace somefolder
+$ gimme git@github.com:dereke/peace.git somefolder
+// clones the repo to /<somefolder> and installs all dependencies
 ```
 
 ## LICENSE
