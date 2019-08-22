@@ -8,7 +8,7 @@
     "gimme": "bin/index.js"
   },
   "devDependencies": {
-    "standard": "*"
+    "standard": ">=14.0.1"
   },
   "engines": {
     "node": ">= 0.10"
